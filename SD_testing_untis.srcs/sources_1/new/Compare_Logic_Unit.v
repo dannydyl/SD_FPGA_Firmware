@@ -19,7 +19,8 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 module CompareLogicUnit #(
- parameter level_step = 205 // example step size for each level
+    parameter DATA_WIDTH = 12,  // Bit width of 'signal_in'
+    parameter integer level_step = (1 << DATA_WIDTH) / 20
 )(
  input wire [11:0] signal_in,     // 12-bit input signal strength
  input wire reset_audio_alert,    // Reset audio_alert signal
