@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Display_Controller(
+module DisplayController(
     input wire [4:0] display_level,
     output reg [19:0] display_LED
     );

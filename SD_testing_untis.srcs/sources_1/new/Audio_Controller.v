@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Audio_Controller(
+module AudioController(
    input wire clk,               
    input wire rst,              // Reset signal
    input wire audio_alert,     // Enable signal for audio alert

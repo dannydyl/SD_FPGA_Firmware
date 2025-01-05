@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Visual_Audio_Control_unit(
+module VisualAudioControlUnit(
    input wire clk,                  // Clock signal
    input wire rst,                  // Reset signal
    input wire [4:0] strength_level, // 5-bit signal from CLU

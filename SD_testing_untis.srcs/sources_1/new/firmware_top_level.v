@@ -30,14 +30,14 @@ module firmware_top_level#(
         input clk,
         input sclk,     // slave clock
         input reset,
-        input data,     // connect with ADC pin
+        input data_in,     // connect with ADC pin
         output reg display_LED,
         output reg buzzer
     );
     
 wire [DATA_WIDTH-1 : 0] data_ADC_out, data_BRAM_out;
-wire audio_reset, audio_alert_CLU_out;
-wire [4:0] strength_level_CLU_out;
+wire audio_reset, audio_alert_CLU_out, audio_enable_VACU_out, audio_rest_AC_out;
+wire [4:0] strength_level_CLU_out, display_level_VACU_out;
     
     // assuming communication protocol is SPI
     ADC #(
@@ -46,7 +46,7 @@ wire [4:0] strength_level_CLU_out;
     ) adc_inst (
         .clk       (clk),
         .rst     (reset),
-        .miso      (data),
+        .miso      (data_in),
         .sclk      (sclk),
         .cs_n      (cs_n),
         .data_out  (data_ADC_out),
@@ -71,9 +71,32 @@ wire [4:0] strength_level_CLU_out;
         .DATA_WIDTH(DATA_WIDTH)
     ) CLU_inst (
         .signal_in(data_BRAM_out),
-        .reset_audio_alert(audio_reset),
+        .reset_audio_alert(audio_rest_AC_out),
         .strength_level(strength_level_CLU_out),
         .audio_alert(audio_alert_CLU_out)
     );
+    
+    VisualAudioControlUnit VACU_inst (
+        .clk(clk),
+        .rst(reset),
+        .strength_level(strength_level_CLU_out),
+        .audio_alert(audio_alert_CLU_out),
+        .display_level(display_level_VACU_out),
+        .audio_enable(audio_enable_VACU_out)
+    );
+    
+    AudioController AC_inst(
+        .clk(clk),
+        .rst(reset),
+        .audio_alert(audio_enable_VACU_out),
+        .audio_reset(audio_rest_AC_out),
+        .speaker_output(buzzer)
+    );
+    
+    DisplayController DC_inst(
+        .display_level(display_level_VACU_out),
+        .display_LED(display_LED)
+    );
+    
     
 endmodule
