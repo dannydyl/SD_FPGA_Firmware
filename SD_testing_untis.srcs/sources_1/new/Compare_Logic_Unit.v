@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 module CompareLogicUnit #(
     parameter DATA_WIDTH = 12,  // Bit width of 'signal_in'
-    parameter integer level_step = (1 << DATA_WIDTH) / 20
+    localparam level_step = (1 << DATA_WIDTH) / 20
 )(
- input wire [11:0] signal_in,     // 12-bit input signal strength
+ input wire [DATA_WIDTH-1:0] signal_in,     // 12-bit input signal strength
  input wire reset_audio_alert,    // Reset audio_alert signal
  output reg [4:0] strength_level, // 5-bit output for 20 levels
  output reg audio_alert
@@ -110,13 +110,16 @@ module CompareLogicUnit #(
       end else begin
           audio_alert = 1;
       end
-  end else begin
-      strength_level = 5'd20; // Maximum level if above the last threshold
+  end else if (signal_in > 20 * level_step) begin
+      strength_level = 5'd20;
       if (reset_audio_alert) begin
           audio_alert = 0;
       end else begin
           audio_alert = 1;
       end
+  end else begin // others
+      strength_level = 5'd0;
+      audio_alert = 0;
   end
 end
 

@@ -25,15 +25,15 @@ module DisplayController(
     output reg [19:0] display_LED
     );
 
-   // Make sure display_level does not exceed 20
-wire [4:0] level_saturated = (display_level > 20) ? 5'd20 : display_level;
-    
-    always @(*) begin
-        // (1 << level_saturated) gives you 1 at bit 'level_saturated'
-        // Subtracting 1 sets bits 0..(level_saturated-1) to 1
-        // Example: if level_saturated = 5, (1 << 5) = 0b100000, minus 1 = 0b011111
-        display_LED = (1 << level_saturated) - 1;
-    end
+    // Clamp display_level to a maximum of 20
+    wire [4:0] level_saturated = (display_level > 5'd20) ? 5'd20 : display_level;
 
+    always @(*) begin
+        if (level_saturated == 0)
+            display_LED = 20'b0; // If level is 0, no LEDs are lit
+        else
+            // Generate LED pattern within 20 bits
+            display_LED = (20'b1 << level_saturated) - 1;
+    end
 
 endmodule

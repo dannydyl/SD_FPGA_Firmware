@@ -1,0 +1,4 @@
+Running: xsim.dir/B2O_wrapper_tb_behav/xsimk -simmode gui -wdb B2O_wrapper_tb_behav.wdb -simrunnum 0 -socket 45345
+Design successfully loaded
+Design Loading Memory Usage: 189004 KB (Peak: 189124 KB)
+Design Loading CPU Usage: 1590 ms

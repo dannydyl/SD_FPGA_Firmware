@@ -3,7 +3,13 @@
 Nov  8 2024
 22:36:55
 /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/B2O_wrapper_tb.v,1736376690,verilog,,,,B2O_wrapper_tb,,,,,,,,
 /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/BRAM_tb.v,1733796863,verilog,,,,FIFO_BRAM_tb,,,,,,,,
 /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/Compare_Logic_Unit_tb.v,1733796221,verilog,,,,CompareLogicUnit_tb,,,,,,,,
-/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/BRAM.v,1733796737,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/BRAM_tb.v,,FIFO_BRAM,,,,,,,,
-/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Compare_Logic_Unit.v,1733796070,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/Compare_Logic_Unit_tb.v,,CompareLogicUnit,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/VACU_tb.v,1736273379,verilog,,,,VACU_tb,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Audio_Controller.v,1736296725,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/B2O_wrapper.v,,AudioController,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/B2O_wrapper.v,1736369619,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/BRAM.v,,B2O_wrapper,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/BRAM.v,1736375378,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Compare_Logic_Unit.v,,FIFO_BRAM,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Compare_Logic_Unit.v,1736375489,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Display_Controller.v,,CompareLogicUnit,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Display_Controller.v,1736375006,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Visual_Audio_Control_unit.v,,DisplayController,,,,,,,,
+/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Visual_Audio_Control_unit.v,1736274146,verilog,,/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/B2O_wrapper_tb.v,,VisualAudioControlUnit,,,,,,,,

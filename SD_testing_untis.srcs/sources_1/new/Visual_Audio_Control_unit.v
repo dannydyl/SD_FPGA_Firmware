@@ -30,7 +30,7 @@ module VisualAudioControlUnit(
 );
 
 // Parameter for 500ms display decay delay
-localparam DISPLAY_DELAY = 200000000;   // 500ms delay at 400MHz clock
+localparam DISPLAY_DELAY = 20000000;   // 500ms delay at 400MHz clock
 
 
 // Internal register for display delay counter
@@ -49,7 +49,7 @@ always @(posedge clk or posedge rst) begin
    end else if (strength_level < display_level) begin
        // Start decay delay when strength decreases
        if (display_counter == 0) begin
-           display_level <= display_level - 1; // Decrement display level
+           display_level <= strength_level; // Decrement display level
            display_counter <= DISPLAY_DELAY;   // Reset delay counter for next decay step
        end else begin
            display_counter <= display_counter - 1; // Count down delay

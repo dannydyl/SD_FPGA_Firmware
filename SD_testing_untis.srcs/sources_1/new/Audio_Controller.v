@@ -40,10 +40,12 @@ reg audio_state;
            audio_reset <= 0;
            audio_counter <= 0;
            audio_state <= 0;
+           speaker_output <= 0;
        end else if (audio_alert) begin
            // Control audio based on ON/OFF timing
            if (audio_state == 0) begin
-               audio_reset <= 1;              // 3s ON state
+               audio_reset <= 1;              
+               speaker_output <= 1;// 3s ON state
                if (audio_counter < AUDIO_ON_TIME) begin
                    audio_counter <= audio_counter + 1;
                end else begin
@@ -52,6 +54,7 @@ reg audio_state;
                end
            end else begin
                audio_reset <= 0;              // 1s OFF state
+               speaker_output <= 0;
                if (audio_counter < AUDIO_OFF_TIME) begin
                    audio_counter <= audio_counter + 1;
                end else begin
@@ -64,6 +67,7 @@ reg audio_state;
            audio_reset <= 0;
            audio_counter <= 0;
            audio_state <= 0;
+           speaker_output <= 0;
        end
    end
 

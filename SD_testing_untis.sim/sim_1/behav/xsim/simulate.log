@@ -1,94 +1,86 @@
 Time resolution is 1 ps
-                   0 clk=0 rst=1 wr_en=0 rd_en=0 din=   0 dout=   x full=0 empty=1
-                   5 clk=1 rst=1 wr_en=0 rd_en=0 din=   0 dout=   0 full=0 empty=1
-                  10 clk=0 rst=0 wr_en=0 rd_en=0 din=   0 dout=   0 full=0 empty=1
-                  15 clk=1 rst=0 wr_en=0 rd_en=0 din=   0 dout=   0 full=0 empty=1
-                  20 clk=0 rst=0 wr_en=1 rd_en=0 din= 100 dout=   0 full=0 empty=1
-                  25 clk=1 rst=0 wr_en=1 rd_en=0 din= 100 dout=   0 full=0 empty=0
-                  30 clk=0 rst=0 wr_en=1 rd_en=0 din= 200 dout=   0 full=0 empty=0
-                  35 clk=1 rst=0 wr_en=1 rd_en=0 din= 200 dout=   0 full=0 empty=0
-                  40 clk=0 rst=0 wr_en=1 rd_en=0 din= 300 dout=   0 full=0 empty=0
-                  45 clk=1 rst=0 wr_en=1 rd_en=0 din= 300 dout=   0 full=0 empty=0
-                  50 clk=0 rst=0 wr_en=0 rd_en=0 din= 300 dout=   0 full=0 empty=0
-                  55 clk=1 rst=0 wr_en=0 rd_en=0 din= 300 dout=   0 full=0 empty=0
-                  60 clk=0 rst=0 wr_en=0 rd_en=1 din= 300 dout=   0 full=0 empty=0
-                  65 clk=1 rst=0 wr_en=0 rd_en=1 din= 300 dout= 100 full=0 empty=0
-                  70 clk=0 rst=0 wr_en=0 rd_en=0 din= 300 dout= 100 full=0 empty=0
-                  75 clk=1 rst=0 wr_en=0 rd_en=0 din= 300 dout= 100 full=0 empty=0
-                  80 clk=0 rst=0 wr_en=1 rd_en=0 din= 300 dout= 100 full=0 empty=0
-                  85 clk=1 rst=0 wr_en=1 rd_en=0 din= 300 dout= 100 full=0 empty=0
-                  90 clk=0 rst=0 wr_en=1 rd_en=0 din=1316 dout= 100 full=0 empty=0
-                  95 clk=1 rst=0 wr_en=1 rd_en=0 din=1316 dout= 100 full=0 empty=0
-                 100 clk=0 rst=0 wr_en=1 rd_en=0 din=3713 dout= 100 full=0 empty=0
-                 105 clk=1 rst=0 wr_en=1 rd_en=0 din=3713 dout= 100 full=0 empty=0
-                 110 clk=0 rst=0 wr_en=1 rd_en=0 din=1545 dout= 100 full=0 empty=0
-                 115 clk=1 rst=0 wr_en=1 rd_en=0 din=1545 dout= 100 full=0 empty=0
-                 120 clk=0 rst=0 wr_en=1 rd_en=0 din=1635 dout= 100 full=0 empty=0
-                 125 clk=1 rst=0 wr_en=1 rd_en=0 din=1635 dout= 100 full=0 empty=0
-                 130 clk=0 rst=0 wr_en=1 rd_en=0 din=2829 dout= 100 full=0 empty=0
-                 135 clk=1 rst=0 wr_en=1 rd_en=0 din=2829 dout= 100 full=0 empty=0
-                 140 clk=0 rst=0 wr_en=1 rd_en=0 din=2445 dout= 100 full=0 empty=0
-                 145 clk=1 rst=0 wr_en=1 rd_en=0 din=2445 dout= 100 full=0 empty=0
-                 150 clk=0 rst=0 wr_en=1 rd_en=0 din=1125 dout= 100 full=0 empty=0
-                 155 clk=1 rst=0 wr_en=1 rd_en=0 din=1125 dout= 100 full=0 empty=0
-                 160 clk=0 rst=0 wr_en=1 rd_en=0 din= 530 dout= 100 full=0 empty=0
-                 165 clk=1 rst=0 wr_en=1 rd_en=0 din= 530 dout= 100 full=0 empty=0
-                 170 clk=0 rst=0 wr_en=1 rd_en=0 din= 769 dout= 100 full=0 empty=0
-                 175 clk=1 rst=0 wr_en=1 rd_en=0 din= 769 dout= 100 full=0 empty=0
-                 180 clk=0 rst=0 wr_en=1 rd_en=0 din=3341 dout= 100 full=0 empty=0
-                 185 clk=1 rst=0 wr_en=1 rd_en=0 din=3341 dout= 100 full=0 empty=0
-                 190 clk=0 rst=0 wr_en=1 rd_en=0 din= 374 dout= 100 full=0 empty=0
-                 195 clk=1 rst=0 wr_en=1 rd_en=0 din= 374 dout= 100 full=0 empty=0
-                 200 clk=0 rst=0 wr_en=1 rd_en=0 din=3389 dout= 100 full=0 empty=0
-                 205 clk=1 rst=0 wr_en=1 rd_en=0 din=3389 dout= 100 full=0 empty=0
-                 210 clk=0 rst=0 wr_en=1 rd_en=0 din=2029 dout= 100 full=0 empty=0
-                 215 clk=1 rst=0 wr_en=1 rd_en=0 din=2029 dout= 100 full=1 empty=0
-                 220 clk=0 rst=0 wr_en=1 rd_en=0 din=1932 dout= 100 full=1 empty=0
-                 225 clk=1 rst=0 wr_en=1 rd_en=0 din=1932 dout= 100 full=1 empty=0
-                 230 clk=0 rst=0 wr_en=1 rd_en=0 din=2553 dout= 100 full=1 empty=0
-                 235 clk=1 rst=0 wr_en=1 rd_en=0 din=2553 dout= 100 full=1 empty=0
-                 240 clk=0 rst=0 wr_en=0 rd_en=0 din=1222 dout= 100 full=1 empty=0
-                 245 clk=1 rst=0 wr_en=0 rd_en=0 din=1222 dout= 100 full=1 empty=0
-                 250 clk=0 rst=0 wr_en=1 rd_en=0 din= 999 dout= 100 full=1 empty=0
-                 255 clk=1 rst=0 wr_en=1 rd_en=0 din= 999 dout= 100 full=1 empty=0
-                 260 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout= 100 full=1 empty=0
-                 265 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=1932 full=0 empty=0
-                 270 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=1932 full=0 empty=0
-                 275 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2553 full=0 empty=0
-                 280 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=2553 full=0 empty=0
-                 285 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout= 999 full=0 empty=0
-                 290 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout= 999 full=0 empty=0
-                 295 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=1316 full=0 empty=0
-                 300 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=1316 full=0 empty=0
-                 305 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=3713 full=0 empty=0
-                 310 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=3713 full=0 empty=0
-                 315 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=1545 full=0 empty=0
-                 320 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=1545 full=0 empty=0
-                 325 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=1635 full=0 empty=0
-                 330 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=1635 full=0 empty=0
-                 335 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2829 full=0 empty=0
-                 340 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=2829 full=0 empty=0
-                 345 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2445 full=0 empty=0
-                 350 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=2445 full=0 empty=0
-                 355 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=1125 full=0 empty=0
-                 360 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=1125 full=0 empty=0
-                 365 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout= 530 full=0 empty=0
-                 370 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout= 530 full=0 empty=0
-                 375 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout= 769 full=0 empty=0
-                 380 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout= 769 full=0 empty=0
-                 385 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=3341 full=0 empty=0
-                 390 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=3341 full=0 empty=0
-                 395 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout= 374 full=0 empty=0
-                 400 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout= 374 full=0 empty=0
-                 405 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=3389 full=0 empty=0
-                 410 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=3389 full=0 empty=0
-                 415 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2029 full=0 empty=1
-                 420 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=2029 full=0 empty=1
-                 425 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2029 full=0 empty=1
-                 430 clk=0 rst=0 wr_en=0 rd_en=1 din= 999 dout=2029 full=0 empty=1
-                 435 clk=1 rst=0 wr_en=0 rd_en=1 din= 999 dout=2029 full=0 empty=1
-                 440 clk=0 rst=0 wr_en=0 rd_en=0 din= 999 dout=2029 full=0 empty=1
-                 445 clk=1 rst=0 wr_en=0 rd_en=0 din= 999 dout=2029 full=0 empty=1
-                 450 clk=0 rst=0 wr_en=0 rd_en=0 din= 999 dout=2029 full=0 empty=1
-                 455 clk=1 rst=0 wr_en=0 rd_en=0 din= 999 dout=2029 full=0 empty=1
-$finish called at time : 460 ns : File "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sim_1/new/BRAM_tb.v" Line 101
+Time = 0 | reset = 1 | data_in = 00000000 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 50000 | reset = 0 | data_in = 00000000 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 70000 | reset = 0 | data_in = 00110010 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 80000 | reset = 0 | data_in = 01100100 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 90000 | reset = 0 | data_in = 10010110 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 100000 | reset = 0 | data_in = 11001000 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 110000 | reset = 0 | data_in = 11111010 | display_LED = 00000000000000000000 | buzzer = 0
+Time = 114000 | reset = 0 | data_in = 11111010 | display_LED = 00000000000000001111 | buzzer = 0
+Time = 120000 | reset = 0 | data_in = 00101100 | display_LED = 00000000000000001111 | buzzer = 0
+Time = 124000 | reset = 0 | data_in = 00101100 | display_LED = 00000000000011111111 | buzzer = 0
+Time = 130000 | reset = 0 | data_in = 01011110 | display_LED = 00000000000011111111 | buzzer = 0
+Time = 134000 | reset = 0 | data_in = 01011110 | display_LED = 00000000111111111111 | buzzer = 0
+Time = 140000 | reset = 0 | data_in = 10010000 | display_LED = 00000000111111111111 | buzzer = 0
+Time = 144000 | reset = 0 | data_in = 10010000 | display_LED = 00001111111111111111 | buzzer = 0
+Time = 146000 | reset = 0 | data_in = 10010000 | display_LED = 00001111111111111111 | buzzer = 1
+Time = 150000 | reset = 0 | data_in = 11000010 | display_LED = 00001111111111111111 | buzzer = 1
+Time = 151000 | reset = 0 | data_in = 11000010 | display_LED = 00001111111111111111 | buzzer = 0
+Time = 154000 | reset = 0 | data_in = 11000010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 156000 | reset = 0 | data_in = 11000010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 160000 | reset = 0 | data_in = 11110100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 161000 | reset = 0 | data_in = 11110100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 170000 | reset = 0 | data_in = 00100110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 180000 | reset = 0 | data_in = 01011000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 190000 | reset = 0 | data_in = 10001010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 196000 | reset = 0 | data_in = 10001010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 200000 | reset = 0 | data_in = 10111100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 201000 | reset = 0 | data_in = 10111100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 206000 | reset = 0 | data_in = 10111100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 210000 | reset = 0 | data_in = 11101110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 211000 | reset = 0 | data_in = 11101110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 220000 | reset = 0 | data_in = 00100000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 230000 | reset = 0 | data_in = 01010010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 240000 | reset = 0 | data_in = 10000100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 246000 | reset = 0 | data_in = 10000100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 250000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 251000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 256000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 261000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 296000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 301000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 306000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 311000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 316000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 321000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 326000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 331000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 336000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 341000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 346000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 351000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 356000 | reset = 0 | data_in = 10110110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 360000 | reset = 0 | data_in = 00010000 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 361000 | reset = 0 | data_in = 00010000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 366000 | reset = 0 | data_in = 00010000 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 370000 | reset = 0 | data_in = 01000010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 371000 | reset = 0 | data_in = 01000010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 376000 | reset = 0 | data_in = 01000010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 380000 | reset = 0 | data_in = 01110100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 381000 | reset = 0 | data_in = 01110100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 386000 | reset = 0 | data_in = 01110100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 390000 | reset = 0 | data_in = 10100110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 391000 | reset = 0 | data_in = 10100110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 396000 | reset = 0 | data_in = 10100110 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 400000 | reset = 0 | data_in = 11011000 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 401000 | reset = 0 | data_in = 11011000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 410000 | reset = 0 | data_in = 00001010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 420000 | reset = 0 | data_in = 00111100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 430000 | reset = 0 | data_in = 01101110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 440000 | reset = 0 | data_in = 10100000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 446000 | reset = 0 | data_in = 10100000 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 450000 | reset = 0 | data_in = 11010010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 451000 | reset = 0 | data_in = 11010010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 460000 | reset = 0 | data_in = 00000100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 470000 | reset = 0 | data_in = 00110110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 480000 | reset = 0 | data_in = 01101000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 490000 | reset = 0 | data_in = 10011010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 496000 | reset = 0 | data_in = 10011010 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 500000 | reset = 0 | data_in = 11001100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 501000 | reset = 0 | data_in = 11001100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 510000 | reset = 0 | data_in = 11111110 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 520000 | reset = 0 | data_in = 00110000 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 530000 | reset = 0 | data_in = 01100010 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 540000 | reset = 0 | data_in = 10010100 | display_LED = 11111111111111111111 | buzzer = 0
+Time = 546000 | reset = 0 | data_in = 10010100 | display_LED = 11111111111111111111 | buzzer = 1
+Time = 550000 | reset = 0 | data_in = 11000110 | display_LED = 11111111111111111111 | buzzer = 1

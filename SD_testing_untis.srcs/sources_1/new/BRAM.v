@@ -38,7 +38,7 @@ module FIFO_BRAM #(
 
 
    // Internal memory and pointers
-   reg [DATA_WIDTH-1:0] fifo_mem [0:DEPTH-1]; // FIFO memory
+   reg [DATA_WIDTH-1:0] fifo_mem [0:DEPTH-1] ; // FIFO memory
    reg [ADDR_WIDTH-1:0] wr_ptr = 0;           // Write pointer
    reg [ADDR_WIDTH-1:0] rd_ptr = 0;           // Read pointer
    reg [ADDR_WIDTH:0] fifo_count = 0;         // Count of entries in FIFO
@@ -60,17 +60,20 @@ module FIFO_BRAM #(
        if (rst) begin
            rd_ptr <= 0;
            dout <= 0;
-       end else if (rd_en && !empty) begin
+       end else if (rd_en && (!empty || wr_en)) begin
            dout <= fifo_mem[rd_ptr];
            rd_ptr <= (rd_ptr == DEPTH-1) ? 0 : rd_ptr + 1; // Circular addressing
        end
    end
 
-
+    integer i;
    // FIFO count update
    always @(posedge clk) begin
        if (rst) begin
            fifo_count <= 0;
+           for(i=0;i<DEPTH;i=i+1) begin
+                fifo_mem[i] <= 0;
+           end
        end else begin
            case ({wr_en, rd_en})
                2'b10: fifo_count <= (fifo_count < DEPTH) ? fifo_count + 1 : fifo_count; // Write only
