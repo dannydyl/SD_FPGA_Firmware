@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SD_testing_untis.srcs/sources_1/new/ADC_Control.v" \
+"../../../../SD_testing_untis.srcs/sources_1/new/Display_Control.v" \
+"../../../../SD_testing_untis.srcs/sources_1/new/Hold_Decay.v" \
+"../../../../SD_testing_untis.srcs/sources_1/new/Peak_Detector.v" \
+"../../../../SD_testing_untis.srcs/sources_1/new/Shifter.v" \
+"../../../../SD_testing_untis.srcs/sources_1/new/Top_Level.v" \
+"../../../../SD_testing_untis.srcs/sim_1/new/tb_top_level.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

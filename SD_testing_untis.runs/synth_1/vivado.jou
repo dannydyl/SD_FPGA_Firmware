@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 21 15:55:48 2025
+# Process ID         : 35819
+# Current directory  : /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.runs/synth_1
+# Command line       : vivado -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file           : /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.runs/synth_1/top_level.vds
+# Journal file       : /home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.runs/synth_1/vivado.jou
+# Running On         : dongyunlee-linux
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx
+# CPU Frequency      : 1477.029 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16171 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20466 MB
+# Available Virtual  : 15695 MB
+#-----------------------------------------------------------
+source top_level.tcl -notrace

@@ -1,20 +1,30 @@
 Vivado Simulator v2024.2.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot B2O_wrapper_tb_behav xil_defaultlib.B2O_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_level_behav xil_defaultlib.tb_top_level xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/ADC_Control.v" Line 1. Module ADC_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Peak_Detector.v" Line 1. Module peak_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Shifter.v" Line 1. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Hold_Decay.v" Line 1. Module hold_and_decay_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Display_Control.v" Line 1. Module display_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/ADC_Control.v" Line 1. Module ADC_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Peak_Detector.v" Line 1. Module peak_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Shifter.v" Line 1. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Hold_Decay.v" Line 1. Module hold_and_decay_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/dongyunlee/Desktop/SD_unit_testing/SD_testing_untis/SD_testing_untis.srcs/sources_1/new/Display_Control.v" Line 1. Module display_control doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.FIFO_BRAM(DATA_WIDTH=8)
-Compiling module xil_defaultlib.CompareLogicUnit(DATA_WIDTH=8)
-Compiling module xil_defaultlib.VisualAudioControlUnit
-Compiling module xil_defaultlib.AudioController
-Compiling module xil_defaultlib.DisplayController
-Compiling module xil_defaultlib.B2O_wrapper
-Compiling module xil_defaultlib.B2O_wrapper_tb
+Compiling module xil_defaultlib.ADC_control
+Compiling module xil_defaultlib.peak_detector
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.hold_and_decay_default
+Compiling module xil_defaultlib.display_control
+Compiling module xil_defaultlib.top_level
+Compiling module xil_defaultlib.tb_top_level
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot B2O_wrapper_tb_behav
+Built simulation snapshot tb_top_level_behav
